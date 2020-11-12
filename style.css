@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    height: 500px;
+    width: 500px;
+}
+
+.main > canvas {
+    position: absolute;
+    border: 2px solid black;
+}
+
+#mobile-buttons {
+    margin-bottom: -200px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper {
+    text-align: center;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
